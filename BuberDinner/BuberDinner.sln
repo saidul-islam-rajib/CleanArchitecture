@@ -15,9 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Infrastructure"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{E1D17946-A923-41EB-90F9-618EA1355C54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{95F8F735-8DC2-40AD-9D20-2D217DFDB26D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{95F8F735-8DC2-40AD-9D20-2D217DFDB26D}"
 	ProjectSection(SolutionItems) = preProject
-		GetForcasts.http = GetForcasts.http
+		Login.http = Login.http
+		Register.http = Register.http
 	EndProjectSection
 EndProject
 Global
@@ -52,5 +53,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{95F8F735-8DC2-40AD-9D20-2D217DFDB26D} = {E1D17946-A923-41EB-90F9-618EA1355C54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B988BD26-045F-44BA-8112-42439CB6EEEE}
 	EndGlobalSection
 EndGlobal
