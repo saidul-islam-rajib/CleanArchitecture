@@ -9,3 +9,14 @@ Content-Type: application/json
   "email":"saidul.is.rajib@gmail.com",
   "password":"Test@123"
 }
+
+###
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+  "firstName":"Rajib",
+  "lastName":"Ahmed",
+  "email":"saidul.is.rajib@gmail.com",
+  "password":"Test@123"
+}
