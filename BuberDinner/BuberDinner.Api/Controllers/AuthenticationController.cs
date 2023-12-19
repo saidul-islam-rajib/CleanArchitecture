@@ -9,9 +9,9 @@ namespace BuberDinner.Api.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
-        public AuthenticationController()
+        public AuthenticationController(IAuthenticationService authenticationService)
         {
-            _authenticationService = new AuthenticationService();
+            _authenticationService = authenticationService;
         }
 
 
